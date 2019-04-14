@@ -28,4 +28,4 @@ information we consider important for you to have. We suggest taking note of tha
 do this from now on if you're smart).
 
 # Content
-- [Block 1](contents/block-1.md).
+- [Block 1](content/block-1/index.md).
