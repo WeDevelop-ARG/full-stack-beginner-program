@@ -9,6 +9,7 @@
 - Git.
 - Agile (SCRUM).
 - Testing (Unit testing, Integration testing). TDD vs BDD.
+- REST.
 
 ## Resources
 
@@ -69,6 +70,11 @@ repo https://github.com/WeDevelop-ARG/generate-test-data and import it into your
   - Integrated tests are a scam: https://vimeo.com/80533536.
 - Testing + Agile = Refactoring:
   - https://en.wikipedia.org/wiki/Code_refactoring.
+  
+### REST
+
+- Basic theory:
+  - https://en.wikipedia.org/wiki/Representational_state_transfer
 
 ### Wrap-up
 
