@@ -28,3 +28,4 @@ do this from now on if you're smart).
 
 # Content
 - [Block 1](content/block-1/index.md).
+- [Block 2](content/block-2/index.md).
