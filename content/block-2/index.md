@@ -15,6 +15,7 @@
   - https://developer.mozilla.org/en-US/docs/Web/JavaScript. **Note**: use this site when looking for language references.
 - Standard (ECMA-262): http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf.
 - JSX: https://reactjs.org/docs/introducing-jsx.html.
+- StandardJS: https://standardjs.com. A Javascript coding standard.
 
 ### React
 
