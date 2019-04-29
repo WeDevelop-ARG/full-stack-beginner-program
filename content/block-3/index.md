@@ -35,7 +35,7 @@ We'll start creating a very simple Chat platform. Make sure to create a public r
   
 **NOTE**: Take a look at the sample models [here](sample-models).
 
-3. Create a migration that creates the `user` table.
+3. Create a migration that creates the `user` table (and `salt`, if you used the sample models).
 
 4. Create the type `User` in GraphQL.
 
