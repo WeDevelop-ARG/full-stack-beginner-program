@@ -52,3 +52,7 @@ We'll start creating a very simple Chat platform. Make sure to create a public r
 Don't forget to ask any question you have. Also, contact Abel or Mauricio to get in touch with team members and learn how we use the things you just learned.
 
 ## Bonus
+
+Nothing so far.
+
+[Next block](../block-4/index.md)
