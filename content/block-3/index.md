@@ -1,6 +1,6 @@
 [Back to Index](../../README.md)
 
-# Block 3: Start sample project (1 week)
+# Block 3: Start sample project (2 weeks)
 
 ## Contents
 
@@ -25,6 +25,8 @@
 We'll start creating a very simple Chat platform. Make sure to create a public repository into your Github account to host this code. Also, make sure to put in practice the [Git Flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html).
 
 1. Setup an initial boilerplate for this project. Use [this repository](https://github.com/abelosorio/graphql-boilerplate) as base.
+
+1a. Setup a PostgreSQL database (https://www.postgresql.org/docs/11/tutorial-install.html).
 
 2. Create a Sequelize model `User` with the following attributes:
   - `id` (UUID);
