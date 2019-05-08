@@ -91,3 +91,5 @@ Don't forget to ask any question you have. Also, contact Abel or Mauricio to get
   ISBN-13: 978-0321984135. There are other editions of this book using different languages. Even though refactoring applies
   for every language, I'd suggest getting the Ruby edition since it uses features from a dynamic, intepreted, and object
   oriented language, as is Ruby. This book also belongs to the list **books you must read**.
+
+[Next block](../block-2/index.md)
