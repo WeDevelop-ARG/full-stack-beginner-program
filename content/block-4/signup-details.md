@@ -1,3 +1,5 @@
+[« Back](index.md)
+
 # Signup page details
 
 This page will be used for users to sign up on our site. This page should be shown on the route `/auth/signup`.
