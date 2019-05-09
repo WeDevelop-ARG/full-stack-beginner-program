@@ -21,7 +21,6 @@
 
 ### Passport
 - Oficial documentation: http://www.passportjs.org/docs.
-- Local strategy (username & password): http://www.passportjs.org/docs/username-password.
 - JWT strategy: http://www.passportjs.org/packages/passport-jwt.
 
 ### React Bootstrap
