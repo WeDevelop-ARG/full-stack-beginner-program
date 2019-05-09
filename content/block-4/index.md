@@ -1,4 +1,4 @@
-[Back to Index](../../README.md)
+[« Back to Index](../../README.md)
 
 # Block 4: Create a frontend + Authentication (2 weeks)
 
