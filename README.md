@@ -1,20 +1,20 @@
-# Full-Stack developer beginner program (React/Node.js/GraphQL/Django/Rails) by WeDevelop
+# Full-Stack Javascript developer beginner program by WeDevelop
 
 ## Introduction
 
 ### Goals
-Learn the basic technologies and concepts for Full-Stack development (using Javascript and alternatives backends).
-Approach to a daily basis of freelance work.
+- Learn the basic technologies and concepts for Full-Stack development using Javascript (React / Node.js);
+- Approach to a daily basis of freelance work.
 
 ### Technologies you'll be introduced to
 
 - Git / Git flow.
 - Docker.
-- DBs: PostgreSQL, MongoDB, Redis.
+- DBs: PostgreSQL.
 - Javascript stack: React and Node.js.
+- Authentication / authorization: JWT, Passport.
 - GraphQL.
 - Agile (in particular, SCRUM).
-- Alternative backends: Django or Ruby on Rails.
 
 ### How to use this program
 This program will be divided into _blocks_ that last up to 2 weeks each. Each block will either introduce you to new concepts
