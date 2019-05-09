@@ -18,4 +18,6 @@ Add a link at the bottom to a route `/auth/signin` (as shown on the mockup).
 
 ## Style
 
-Base this page's style on [this mockup](./signup.png).
+Base this page's style on this mockup:
+
+![Signup mockup](signup.png)
