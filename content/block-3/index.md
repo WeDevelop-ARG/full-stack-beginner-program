@@ -1,4 +1,4 @@
-[Back to Index](../../README.md)
+[« Back to Index](../../README.md)
 
 # Block 3: Start sample project (2 weeks)
 
