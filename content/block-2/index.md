@@ -1,4 +1,4 @@
-[Back to Index](../../README.md)
+[« Back to Index](../../README.md)
 
 # Block 2: React (1 week)
 
