@@ -5,7 +5,7 @@
 ## Type
 
 ```graphql
-type SignupInput {
+input SignupInput {
   firstName: String!
   lastName: String!
   username: String!
