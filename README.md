@@ -27,7 +27,7 @@ information we consider important for you to have. We suggest taking note of tha
 do this from now on if you're smart).
 
 # Content
-- [Block 1](content/block-1/index.md).
-- [Block 2](content/block-2/index.md).
-- [Block 3](content/block-3/index.md).
-- [Block 4](content/block-4/index.md).
+- [Block 1 (1 week)](content/block-1/index.md).
+- [Block 2 (1 week)](content/block-2/index.md).
+- [Block 3 (2 weeks)](content/block-3/index.md).
+- [Block 4 (2 weeks)](content/block-4/index.md).
