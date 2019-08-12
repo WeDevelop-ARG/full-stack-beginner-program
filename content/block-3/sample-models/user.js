@@ -23,28 +23,32 @@ export default (sequelize, DataTypes) => {
     password: {
       type: DataTypes.STRING,
       allowNull: false
+    },
+    salt: {
+      type: DataTypes.STRING,
+      allowNull: true
     }
   })
 
   // Instance methods
-  User.prototype.passwordMatches = async function (value, models = sequelize.models) {
-    const salt = await models.salt.getPasswordSalt()
-    const currentPasswordBuffer = Buffer.from(this.password, 'hex')
-
-    return crypto.scryptSync(value, salt.value, 64).equals(currentPasswordBuffer)
+  User.prototype.passwordMatches = function (value) {
+    return User.encryptPassword(value, this.salt) === this.password
   }
 
   // Class methods
   User.hashPasswordHook = async function (user) {
-    if (!user.password) return user
+    if (!user.password || !user.changed('password')) return user
 
-    user.password = await User.getEncryptedPassword(user.password)
+    user.salt = this.getRandomSalt()
+    user.password = await User.getEncryptedPassword(user.password, user.salt)
   }
 
-  User.getEncryptedPassword = async function (plainPassword, models = sequelize.models) {
-    const salt = await models.salt.getPasswordSalt()
+  User.getRandomSalt = function (bytes = 16) {
+    return crypto.randomBytes(bytes).toString('hex')
+  }
 
-    return crypto.scryptSync(plainPassword, salt.value, 64).toString('hex')
+  User.encryptPassword = function (plainPassword, salt) {
+    return crypto.scryptSync(plainPassword, salt, 64).toString('hex')
   }
 
   // hooks
