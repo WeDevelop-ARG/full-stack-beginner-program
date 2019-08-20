@@ -33,6 +33,7 @@ We'll start creating a very simple Chat platform. Make sure to create a public r
   - `firstName`;
   - `lastName`;
   - `username` (unique);
+  - `salt`;
   - `password` (MD5 encrypted).
   
 **NOTE**: Take a look at the sample models [here](sample-models).
