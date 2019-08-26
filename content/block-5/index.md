@@ -14,8 +14,8 @@
 ## Tasks
 - Read the first sections of Docker's oficial documentation (Part 1, 2, and 3, at least).
 - Install the Docker Engine.
-- Dockerize the backend and frontend of your Chat system (create and image for each one).
-- Create a container to run both of them simultaneously. Also, include *PostgreSQL* (https://hub.docker.com/_/postgres).
+- Dockerize the backend and frontend of your Chat system (create an image for each one, you'll need to write a Dockerfile for each one).
+- Create a multi-container Docker application to run all of them simultaneously. Also, include *PostgreSQL* (https://hub.docker.com/_/postgres).
 - Have in mind the following chart:
 
 ![Docker setup](docker-setup.png "Docker Setup")
