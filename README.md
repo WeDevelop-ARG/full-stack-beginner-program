@@ -14,7 +14,7 @@
 - Javascript stack: React and Node.js.
 - Authentication / authorization: JWT, Passport.
 - GraphQL.
-- Agile (in particular, SCRUM).
+- Agile (in particular, Scrum and Kanban).
 
 ### How to use this program
 This program will be divided into _blocks_ that last up to 2 weeks each. Each block will either introduce you to new concepts
