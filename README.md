@@ -4,7 +4,7 @@
 
 ### Goals
 - Learn the basic technologies and concepts for Full-Stack development using Javascript (React / Node.js);
-- Approach to a daily basis of freelance work.
+- Approach to a daily basis of remote work.
 
 ### Technologies you'll be introduced to
 
