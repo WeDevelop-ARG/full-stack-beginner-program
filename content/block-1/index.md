@@ -26,6 +26,7 @@
   - https://en.wikipedia.org/wiki/Object-oriented_programming.
 - SOLID principles:
   - https://www.youtube.com/watch?v=AEnePs2Evg0&list=PLiWWZqwu9gpvoczhzPXwIPA5TP_SDVWBB.
+  - If you want to check here is another video about SOLID (spanish language) : https://www.youtube.com/watch?v=2X50sKeBAcQ
 - Duck typing:
   - https://www.youtube.com/watch?v=oaIxRQSAZXE.
 - Dependency Inversion:
