@@ -71,6 +71,10 @@ repo https://github.com/WeDevelop-ARG/generate-test-data and import it into your
   - Basic theory: https://kanbanize.com/kanban-resources/getting-started/what-is-kanban.
   - Excellent explanaiton by Eric Brechner: https://www.youtube.com/watch?v=CD0y-aU1sXo.
 
+### Lean
+  - Basic theory and principles: https://kanbanize.com/lean-management/what-is-lean-management.
+  - Excellent video explanation: https://www.youtube.com/watch?v=wfsRAZUnonI.
+
 ### Testing
 
 - Basic theory:
