@@ -8,7 +8,8 @@
 - Databases: Relational (PostgreSQL) and Non-Relational (MongoDB, Redis).
 - Git.
 - Git Flow.
-- Agile (Scrum and Kanban).
+- Agile (Scrum).
+- Lean (Kanban).
 - Testing (Unit testing, Integration testing). TDD vs BDD.
 - REST.
 
@@ -64,16 +65,16 @@ repo https://github.com/WeDevelop-ARG/generate-test-data and import it into your
   - https://www.agilealliance.org/agile101.
   - Agile manifesto: https://agilemanifesto.org/iso/en/manifesto.html.
 
-### Scrum
+#### Scrum
   - Basic theory: https://www.scrum.org/resources/what-is-scrum.
-  
-### Kanban
-  - Basic theory: https://kanbanize.com/kanban-resources/getting-started/what-is-kanban.
-  - Excellent explanaiton by Eric Brechner: https://www.youtube.com/watch?v=CD0y-aU1sXo.
 
 ### Lean
   - Basic theory and principles: https://kanbanize.com/lean-management/what-is-lean-management.
   - Excellent video explanation: https://www.youtube.com/watch?v=wfsRAZUnonI.
+
+#### Kanban
+  - Basic theory: https://kanbanize.com/kanban-resources/getting-started/what-is-kanban.
+  - Excellent explanation by Eric Brechner: https://www.youtube.com/watch?v=CD0y-aU1sXo.
 
 ### Testing
 
