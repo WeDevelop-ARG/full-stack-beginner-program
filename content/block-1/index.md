@@ -8,7 +8,7 @@
 - Databases: Relational (PostgreSQL) and Non-Relational (MongoDB, Redis).
 - Git.
 - Git Flow.
-- Agile (Scrum and Kanban).
+- Agile (Scrum, Kanban and Lean).
 - Testing (Unit testing, Integration testing). TDD vs BDD.
 - REST.
 
