@@ -93,7 +93,7 @@ repo https://github.com/WeDevelop-ARG/generate-test-data and import it into your
 
 ### Wrap-up
 
-Don't forget to ask any question you have. Also, contact Ramiro to get in touch with team members and learn how we use the things you just learned.
+Don't forget to ask any question you have. Also, contact your Leader to get in touch with team members and learn how we use the things you just learned.
 
 ### Bonus
 
