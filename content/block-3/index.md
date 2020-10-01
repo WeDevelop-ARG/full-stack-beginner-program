@@ -50,7 +50,7 @@ We'll start creating a very simple Chat platform. Make sure to create a public r
 
 ## Wrap-up
 
-Don't forget to ask any question you have. Also, contact Abel or Mauricio to get in touch with team members and learn how we use the things you just learned.
+Don't forget to ask any question you have. Also, contact you Leader to get in touch with team members and learn how we use the things you just learned.
 
 ## Bonus
 
