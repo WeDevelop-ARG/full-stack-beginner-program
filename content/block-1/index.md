@@ -101,6 +101,7 @@ Don't forget to ask any question you have. Also, contact your Leader to get in t
   only 1 video a day and dig deeper about each pattern.
 - Clean Code: A Handbook of Agile Software Craftsmanship, by Robert C. Martin. ISBN-10: 0132350882, ISBN-13: 978-0132350884.
   This is one of the **books you must read**. Get it as soon as you can. You will love it.
+- Clean Architecture : A Craftsman's Guide to Software Structure and Design, by Robert C. Martin. ISBN-10: 0134494164, ISBN-13: 978-0134494166.
 - The mythical 10x programmer: http://antirez.com/news/112.
 - Refactoring: Ruby Edition, by Jay Fields, Shane Harvie, Martin Fowler and Kent Beck. ISBN-10: 0321984137,
   ISBN-13: 978-0321984135. There are other editions of this book using different languages. Even though refactoring applies
@@ -108,5 +109,5 @@ Don't forget to ask any question you have. Also, contact your Leader to get in t
   oriented language, as is Ruby. This book also belongs to the list **books you must read**.
 - Getting Work Done, by Harvard Business Review. ISBN-10: 1625275439, ISBN-13: 978-1625275431. This book has really helped me to achieve more things in less time. Self organization is key.
 - Agile Project Management with Kanban, by Eric Brechner. ISBN-13: 978-0735698956, ISBN-10: 0735698953.
-
+- Agile Software Development, Principles, Patterns, and Practices, by Robert C. Martin. ISBN-10: 0135974445, ISBN-13: 978-0135974445.
 [Next block](../block-2/index.md)
