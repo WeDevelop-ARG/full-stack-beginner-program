@@ -12,9 +12,9 @@
 - Docker.
 - DBs: PostgreSQL.
 - Javascript stack: React and Node.js.
-- Authentication / authorization: JWT, Passport.
+- Authentication / authorization using JWT.
 - GraphQL.
-- Agile (in particular, Scrum and Kanban).
+- Agile Software Development.
 
 ### How to use this program
 This program will be divided into _blocks_ that last up to 2 weeks each. Each block will either introduce you to new concepts
