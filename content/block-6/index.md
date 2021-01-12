@@ -1,6 +1,6 @@
 [« Back to Index](../../README.md)
 
-# Block 6: Create a frontend + Authentication (2 weeks)
+# Block 6: Create a frontend + Authentication (2 weeks) [WIP]
 
 ## Contents
 

@@ -1,6 +1,6 @@
 [« Back to Index](../../README.md)
 
-# Block 5: Start sample project (2 weeks)
+# Block 5: Start sample project (2 weeks) [WIP]
 
 ## Contents
 

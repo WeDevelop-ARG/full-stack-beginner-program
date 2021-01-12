@@ -1,12 +1,15 @@
-# Block 4: Styling with CSS (2 weeks)
+# Block 4: Styling with CSS (2 weeks) [WIP]
 
 ## Contents
 - Advanced CSS
+- Flexbox
+- Grid
 
 ## Resources
 
 ### CSS
 - MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS
+- Keep in mind the distinction between internal component styles vs external styles.
 
 ### Flexbox
 - Guide to flex box: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
