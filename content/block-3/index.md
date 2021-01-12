@@ -1,27 +1,26 @@
 [« Back to Index](../../README.md)
 
-# Block 3: Design (2 weeks)
+# Block 3: Front-End Architecture (2 weeks)
 
 ## Contents
 - Component Diagrams
-- Advanced CSS
+- Container, Presenter, Page and View components
+- React Prop Types
+- React Custom Hooks
+- React Router
 
 ## Resources
 
-### CSS
-- Position: https://webdevsimplified.com/css-position.html
-- TODO #1 (An important CSS concept)
-- TODO #2 (An important CSS concept)
+### Architecture
+  - Container: Also known as "Controller", is a component responsible for containing views and interact with them (event management). It uses presenters to retrieve data and pass it to the views as props. Locate it under `/src/components`
+  - Presenter: The presenter acts upon the model and the view. It retrieves data from repositories (the model), and formats it for display in the view. Locate it under `/src/hooks`.
+  - Page: A page is a component only responsible for **navigation** and rendering content. It is the only one that can interact with the Router. Locate it under `/src/pages`.
+  - View: The view is a passive interface that displays data (from the model) and routes user commands (events) to the container/controller to act upon that data. Locate it under `/src/components`.
 
-### Flexbox
-- Guide to flex box: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- Flexboxfroggy: https://flexboxfroggy.com/
-- Real layout examples: https://www.youtube.com/watch?v=k32voqQhODc
-
-### Grid
-- Guide to Grid: https://learncssgrid.com/
-- Grid garden: https://cssgridgarden.com/
-- Learn css grid with Wes Bos: https://cssgrid.io/
+### React
+  - Typechecking With PropTypes: https://reactjs.org/docs/typechecking-with-proptypes.html
+  - Building Your Own Hooks: https://reactjs.org/docs/hooks-custom.html
+  - Navigational components with React Router: https://reactrouter.com/web/guides/quick-start
 
 ## Tasks
 
@@ -32,14 +31,15 @@ Ask your Leader to give you access to the UI Design selected for this training a
 2. Level One: Develop Wireframes
   - Create wireframes to represent the design at a base component level.
 3. Level Two: Component Diagram
-  - TODO: Component diagram content ???
+  - Create a diagram including page, container and view components with its props.
 4. Implementation
-  - Implement each component using React, focusing on structure only (Version 1).
-  - Apply styles using CSS to make the page look exactly as the Design indicates.
-  - TODO: Implement FE behaviour with fake data ???
+  - Implement each component using React, without styles and focusing on architecture and working logic only (Version 1).
+  - Specify React Prop Types for components with props.
+  - Use React Custom Hooks to implement presenters.
+  - Use React Router for page navigation.
 
 ## Bonus
 
-Nothing so far.
+- Chapter 23: Presenters and Humble Objects, from Clean Architecture by Robert C. Martin. ISBN-10: 0134494164, ISBN-13: 978-0134494166.
 
 [Next block](../block-4/index.md)
