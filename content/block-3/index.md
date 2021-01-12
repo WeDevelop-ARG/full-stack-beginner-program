@@ -1,59 +1,45 @@
 [« Back to Index](../../README.md)
 
-# Block 3: Start sample project (2 weeks)
+# Block 3: Front-End Architecture (2 weeks)
 
 ## Contents
-
-- GraphQL.
-- ORM (Sequelize).
+- Component Diagrams
+- Container, Presenter, Page and View components
+- React Prop Types
+- React Custom Hooks
+- React Router
 
 ## Resources
 
-### GraphQL
+### Architecture
+  - Container: Also known as "Controller", is a component responsible for containing views and interact with them (event management). It uses presenters to retrieve data and pass it to the views as props. Locate it under `/src/components`
+  - Presenter: The presenter acts upon the model and the view. It retrieves data from repositories (the model), and formats it for display in the view. Locate it under `/src/hooks`.
+  - Page: A page is a component only responsible for **navigation** and rendering content. It is the only one that can interact with the Router. Locate it under `/src/pages`.
+  - View: The view is a passive interface that displays data (from the model) and routes user commands (events) to the container/controller to act upon that data. Locate it under `/src/components`.
 
-- Introductory oficial documentation:
-  - https://graphql.org/learn. Read the sections **Queries and Mutations** and **Schemas and Types**.
-
-### ORM (Sequelize)
-
-- Basic theory on ORMs:
-  - https://en.wikipedia.org/wiki/Object-relational_mapping.
-- Sequelize's oficial documentation: http://docs.sequelizejs.com (no need to dig very deep right now).
+### React
+  - Typechecking With PropTypes: https://reactjs.org/docs/typechecking-with-proptypes.html
+  - Building Your Own Hooks: https://reactjs.org/docs/hooks-custom.html
+  - Navigational components with React Router: https://reactrouter.com/web/guides/quick-start
 
 ## Tasks
 
-We'll start creating a very simple Chat platform. Make sure to create a public repository into your Github account to host this code. Also, make sure to put in practice the [Git Flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html).
+Ask your Leader to give you access to the UI Design selected for this training and follow the next stepts:
 
-1. Setup an initial boilerplate for this project. Use [this repository](https://github.com/abelosorio/graphql-boilerplate) as base.
-
-  1.a. Setup a PostgreSQL database (https://www.postgresql.org/docs/11/tutorial-install.html).
-
-2. Create a Sequelize model `User` with the following attributes:
-  - `id` (UUID);
-  - `firstName`;
-  - `lastName`;
-  - `username` (unique);
-  - `salt`;
-  - `password` (MD5 encrypted).
-  
-**NOTE**: Take a look at the sample models [here](sample-models).
-
-3. Create a migration that creates the `user` table.
-
-4. Create the type `User` in GraphQL.
-
-5. Create a Query `users` that returns all users in database.
-
-6. Create a Query `user` that returns a user by passing its id.
-
-7. Create a Mutation `createUser` that creates a single user and returns it.
-
-## Wrap-up
-
-Don't forget to ask any question you have. Also, contact you Leader to get in touch with team members and learn how we use the things you just learned.
+1. Level Zero: UX/UI Design
+  - From the given Design, identify all the required components.
+2. Level One: Develop Wireframes
+  - Create wireframes to represent the design at a base component level.
+3. Level Two: Component Diagram
+  - Create a diagram including page, container and view components with its props.
+4. Implementation
+  - Implement each component using React, without styles and focusing on architecture and working logic only (Version 1).
+  - Specify React Prop Types for components with props.
+  - Use React Custom Hooks to implement presenters.
+  - Use React Router for page navigation.
 
 ## Bonus
 
-Nothing so far.
+- Chapter 23: Presenters and Humble Objects, from Clean Architecture by Robert C. Martin. ISBN-10: 0134494164, ISBN-13: 978-0134494166.
 
 [Next block](../block-4/index.md)
