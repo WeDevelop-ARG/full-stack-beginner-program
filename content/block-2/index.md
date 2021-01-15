@@ -11,8 +11,7 @@
 
 ### Javascript / JSX
 
-- Basic documentation:
-  - https://developer.mozilla.org/en-US/docs/Web/JavaScript. **Note**: use this site when looking for language references.
+- Basic documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript. **Note**: use this site when looking for language references.
 - Standard (ECMA-262): http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf.
 - JSX: https://reactjs.org/docs/introducing-jsx.html.
 - StandardJS: https://standardjs.com. A Javascript coding standard.
@@ -29,8 +28,10 @@
 
 ## Tasks
 
-1. Create a public repository into your Github account to host the game example from the tutorial. Make sure to put in practice the [Git Flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html).
+1. Create a public repository into your Github account to host the game example from the tutorial. Make sure to put in practice the [Git Flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
+
 2. Create a new Pull Request extracting components into its own files and converting React Class Components into Functional Components.
+
 3. Take a look at the [Wrapping up](https://reactjs.org/tutorial/tutorial.html#wrapping-up) section. Create a new Pull Rquest implementing each of the suggested improvements.
 
 Don't forget to ask any question you have. Also, contact your Leader to get in touch with team members and learn how we use the things you just learned.
