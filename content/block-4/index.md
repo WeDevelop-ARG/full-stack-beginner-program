@@ -1,5 +1,7 @@
 # Block 4: Styling with CSS (2 weeks)
 
+[« Back to Index](../../README.md)
+
 ## Contents
 
 - Semantic HTML
@@ -12,29 +14,29 @@
 
 ### Semantic HTML
 
-- Semantics in HTML: https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html
-- Complete HTML elements list: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+- Semantics in HTML: <https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html>
+- Complete HTML elements list: <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 
 ### CSS & SASS
 
-- MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS
-- SASS: https://sass-lang.com/
+- MDN Web Docs: <https://developer.mozilla.org/en-US/docs/Web/CSS>
+- SASS: <https://sass-lang.com/>
 
 ### Fonts
 
-- Google Fonts repository: https://fonts.google.com/
+- Google Fonts repository: <https://fonts.google.com/>
 
 ### Flexbox
 
-- Guide to flex box: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- Flexboxfroggy: https://flexboxfroggy.com/
-- Real layout examples: https://www.youtube.com/watch?v=k32voqQhODc
+- Guide to flex box: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+- Flexboxfroggy: <https://flexboxfroggy.com/>
+- Real layout examples: <https://www.youtube.com/watch?v=k32voqQhODc>
 
 ### Grid
 
-- Guide to Grid: https://learncssgrid.com/
-- Grid garden: https://cssgridgarden.com/
-- Learn css grid with Wes Bos: https://cssgrid.io/
+- Guide to Grid: <https://learncssgrid.com/>
+- Grid garden: <https://cssgridgarden.com/>
+- Learn css grid with Wes Bos: <https://cssgrid.io/>
 
 ## Tasks
 
@@ -45,7 +47,7 @@
 
 ## Bonus
 
-- The Rules of Margin Collapse: https://www.joshwcomeau.com/css/rules-of-margin-collapse/
-- How Web Accessibility Works: https://blog.segunolalive.com/posts/how-web-accessibility-works/
+- The Rules of Margin Collapse: <https://www.joshwcomeau.com/css/rules-of-margin-collapse/>
+- How Web Accessibility Works: <https://blog.segunolalive.com/posts/how-web-accessibility-works/>
 
 [Next block](../block-5/index.md)
