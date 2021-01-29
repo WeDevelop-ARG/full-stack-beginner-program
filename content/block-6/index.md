@@ -1,57 +1,57 @@
 [« Back to Index](../../README.md)
 
-# Block 6: Create a frontend + Authentication (2 weeks) [WIP]
+# Block 5: Start sample project (2 weeks) [WIP]
 
 ## Contents
 
-- React.
-- Apollo Client.
-- JWT.
-- Passport.
-- React Bootstrap.
+- GraphQL.
+- ORM (Sequelize).
 
 ## Resources
 
-### Apollo Client
-- Oficial documentation: https://www.apollographql.com/docs/react.
-- Local state management: https://www.apollographql.com/docs/react/essentials/local-state.
+### GraphQL
 
-### JWT
-- Oficial documentation: https://jwt.io/introduction.
+- Introductory oficial documentation:
+  - https://graphql.org/learn. Read the sections **Queries and Mutations** and **Schemas and Types**.
 
-### Passport
-- Oficial documentation: http://www.passportjs.org/docs.
-- JWT strategy: http://www.passportjs.org/packages/passport-jwt.
+### ORM (Sequelize)
 
-### React Bootstrap
-- Oficial documentation: https://react-bootstrap.github.io.
+- Basic theory on ORMs:
+  - https://en.wikipedia.org/wiki/Object-relational_mapping.
+- Sequelize's oficial documentation: http://docs.sequelizejs.com (no need to dig very deep right now).
 
 ## Tasks
 
-### Frontend
+1. Setup an initial boilerplate for this project. Use [this repository](https://github.com/abelosorio/graphql-boilerplate) as base.
 
-1. Create a new repository for your frontend. Use [react-create-app](https://github.com/facebook/create-react-app) to create the initial boilerplate.
+  1.a. Setup a PostgreSQL database (https://www.postgresql.org/docs/11/tutorial-install.html).
 
-2. Create a component `SignupPage`. This component will be used for users to sign up on our Chat page. You'll find more detail about this page [here](signup-details.md).
+2. Create a Sequelize model `User` with the following attributes:
+  - `id` (UUID);
+  - `firstName`;
+  - `lastName`;
+  - `username` (unique);
+  - `salt`;
+  - `password` (MD5 encrypted).
 
-3. Create a component `SigninPage`. This component will be used for users to sign up on our Chat page. You'll find more detail about this page [here](signin-details.md).
+**NOTE**: Take a look at the sample models [here](sample-models).
 
-### Backend
+3. Create a migration that creates the `user` table.
 
-1. Create a Mutation `signup`. Details [here](signup-mutation.md).
+4. Create the type `User` in GraphQL.
 
-2. Create a Mutation `signin`. Details [here](signin-mutation.md).
+5. Create a Query `users` that returns all users in database.
 
-3. Configure `passport-jwt` as middleware and extract current user's information on every request. Details [here](passport-jwt-details.md).
+6. Create a Query `user` that returns a user by passing its id.
 
-4. Create a Query `currentUser`. Details [here](current-user-query.md).
+7. Create a Mutation `createUser` that creates a single user and returns it.
 
-### Frontend
+## Wrap-up
 
-1. Connect the `SignupPage` with the Mutation `signup`. Print a `console.log` when the mutation runs successfully and show a message when it fails ([signup with error](signup-errored.png)).
+Don't forget to ask any question you have. Also, contact you Leader to get in touch with team members and learn how we use the things you just learned.
 
-2. Connect the `SigninPage` with the Mutation `signin`. Print a `console.log` when the mutation runs successfully and show a message when it fails ([signin with error](signin-errored.png)).
+## Bonus
 
-3. Adjust both mutations (on client side) to store the JWT and the user's information in the Local State.
+Nothing so far.
 
-4. Create a very simple page showing the current user's information. Redirect here after successfull authentication.
+[Next block](../block-6/index.md)
