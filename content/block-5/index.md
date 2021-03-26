@@ -1,57 +1,37 @@
-[« Back to Index](../../README.md)
+# Block 5: Docker (1 week)
 
-# Block 5: Start sample project (2 weeks) [WIP]
+[« Back to Index](../../README.md)
 
 ## Contents
 
-- GraphQL.
-- ORM (Sequelize).
+**Docker** is a tool that can package software into containers that run reliably in any environment. But what is a container and why do you need one?
+
+Let's imagine you built an app that runs on some weird version of linux. You want to share this out with your friend but he has an entirely different system. So the problem becomes how do we replicate the environment our software needs on any machine.
+
+One way is using a virtual machine where the hardware is simulated then installed with the required OS and dependencies, but they tend to be bulky and slow.
+
+Now, a docker container is conceptually very similar to a VM with one key difference. Instead of virtualizing hardware containers only virtualize the OS, or in other words, all apps and containers are run by a single kernel, and this makes almost everything faster and more efficient.
+
+<img src="docker-meme.jpeg" alt="Docker Meme" width="250"/>
+
+There are three fundamental elements in the universe of docker: the **docker file**, the **image** and the **container**.
+
+1. The docker file is like DNA, it's just code that tells docker how to build an image which itself is a snapshot of your software along with all of it's dependencies down to the operating system level.
+
+2. The image is immutable and it can be used to spin up multiple containers which is your actual software running in the real world.
+
+3. The container, as mentioned before, is just a running process (like a Node application).
+
+The whole point of docker is reproducing environments. The developer who creates the software can define the environment with a docker file. Then any developer at that point can use the docker file to rebuild the environment, which is saved as an image. Images can be uploaded into the cloud, then any developer or server that wants to run that software can pull the image down to create a container which is just a running process of that image.
 
 ## Resources
 
-### GraphQL
+### Docker
 
-- Introductory oficial documentation:
-  - https://graphql.org/learn. Read the sections **Queries and Mutations** and **Schemas and Types**.
-
-### ORM (Sequelize)
-
-- Basic theory on ORMs:
-  - https://en.wikipedia.org/wiki/Object-relational_mapping.
-- Sequelize's oficial documentation: http://docs.sequelizejs.com (no need to dig very deep right now).
+- Oficial documentation: <https://docs.docker.com>.
 
 ## Tasks
 
-1. Setup an initial boilerplate for this project. Use [this repository](https://github.com/abelosorio/graphql-boilerplate) as base.
-
-  1.a. Setup a PostgreSQL database (https://www.postgresql.org/docs/11/tutorial-install.html).
-
-2. Create a Sequelize model `User` with the following attributes:
-  - `id` (UUID);
-  - `firstName`;
-  - `lastName`;
-  - `username` (unique);
-  - `salt`;
-  - `password` (MD5 encrypted).
-
-**NOTE**: Take a look at the sample models [here](sample-models).
-
-3. Create a migration that creates the `user` table.
-
-4. Create the type `User` in GraphQL.
-
-5. Create a Query `users` that returns all users in database.
-
-6. Create a Query `user` that returns a user by passing its id.
-
-7. Create a Mutation `createUser` that creates a single user and returns it.
-
-## Wrap-up
-
-Don't forget to ask any question you have. Also, contact you Leader to get in touch with team members and learn how we use the things you just learned.
-
-## Bonus
-
-Nothing so far.
-
-[Next block](../block-6/index.md)
+- Read the first sections of Docker's oficial documentation (Part 1, 2, and 3, at least).
+- Install the Docker Engine.
+- Complete the challenges from [this repository](https://github.com/WeDevelop-ARG/training-program-docker-dev).
