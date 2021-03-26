@@ -35,3 +35,4 @@ do this from now on if you're smart).
 - [Block 3 (2 weeks)](content/block-3/index.md).
 - [Block 4 (2 weeks)](content/block-4/index.md).
 - [Block 5 (1 week)](content/block-5/index.md).
+- [Block 6 (2 weeks)](content/block-6/index.md).
